@@ -1,55 +1,196 @@
 body{
     margin: 0;
-    font-family: 'Cairo', sans-serif;
+    font-family: Bebas Neue;
 }
-h1{
-    
-    font-size: 50px;
+h1{ 
+    font-size: 70px;
     margin-bottom: -80px;
     font-style: normal;
+
   
 }
 .Coral-Highlight{
-    color:rgba(238, 108, 85, 0.973);
+    color:#FF8367;
 
 }
 .Blue-Highlight{
-    color:rgba(27, 33, 53, 0.87);
+    color:#363958;
 }
 .half-width{
     width: 40%;
-   /*margin: 70px 90px;*/
    
    float: left;
    margin-left: 5%;
    padding-left: 2%;
    margin-top: 100px;
-   
-   /*padding: 5px 25px;*/
 }
 .half-width img{
-    margin-top: 70px;
-    margin-right: 120px;
-    padding-top: -30px;
-    padding-right: -50px;
-    width: 100%;
+   width: 80%;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
     
 }
 p{
+    font-family: 'Roboto', sans-serif;
     margin-top: 85px;
     margin-bottom: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
 }
 .link-button{
     text-decoration: none;
     background-image:linear-gradient( 180deg, Salmon , tomato) ;
-   font-size: 13px;
+    font-size: 15px;
+    font-family: Roboto;
     padding: 13px 48px;
     border-radius: 5px;
     color: white;
-    font-weight: 700;
+    font-weight: bold;
     text-align: center;
 }
 section{
     height: 500px;
     padding-bottom: 150px;
+}
+h3{
+    color: #363958;;
+    font-size: 40px;
+    margin-top: -70px;
+    margin-bottom: -80px;
+    margin-left: 80px;
+}
+.position{
+    margin-left: 80px;
+    margin-top: 100px;
+    
+}
+.img-size{
+    margin-top: -150px;
+    margin-left: auto;
+    padding-left: initial;
+
+}
+.link-size{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-left: 80px;
+    padding: 14px 25px;
+    font-size:  20px; ;
+    border-radius: 10px;
+
+}
+.top-banner{
+        background-color: white;    
+}
+.photo-banner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+    height: 100%;
+}
+#Color-banner{
+    background-color:#F8F9FC;
+}
+
+.Gym-sec{
+    
+    margin: 10px;
+    border: 5px solid whitesmoke;
+    display: inline-block;
+    width:300px;
+    border-radius: 10px;
+    position: relative;
+    left: 250px;
+    box-shadow: 3px 3px 3px 3px white;
+}
+.Gym-sec img{
+    width:100%;
+    height: auto;
+    margin-right: 40px;
+}
+
+.Text-position{
+    height: 40%;
+    text-align: center;
+    font-weight: 500;
+}
+.L-color{
+    color: #FF8367;
+}
+.H4-size{
+    font-family: Roboto;
+    font-size: 20px;
+    text-align:initial;
+    margin-left: 15px;
+    font-weight: bold;
+    border: 0px solid #cccccc;
+    color:#363958;
+}
+.Ph-size{
+    margin-left: 15px;
+    margin-top: -20px;
+    font-weight: 300;
+    border: 0px solid #cccccc;
+}
+.Work-Inquiry{
+    background-image: url(images/image7.png);
+    
+    background-position: 50% 50%;
+    background-size: 900px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    border: 1px solid white;
+}
+h2{
+    font-weight: bold;
+    font-size: 50px;
+    color:white;
+    float: left;
+    margin: 150px 400px;
+}
+.l-size{
+    font-family: Roboto;
+    font-weight: bold;
+    margin-right: 500px;
+    margin-top: -200px;
+    padding: 10px 20px;
+    float: right;
+}
+h5{
+    text-align: center;
+    margin-top: -250px;
+    color: #696871;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+}
+#h4-fo{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 1000;
+    color: #363958;
+    margin-top: -25px;
+}
+
+.F-img{
+    margin-left: 50px;
+    margin-right: -110px;
+    display: inline-block;
+    position: relative;
+    left: 550px;
+    padding-left: 80px;
+
+}
+.F-img img{
+    width: 35px;
+    height: 35px;
 }
